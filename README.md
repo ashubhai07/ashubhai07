@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @ashubhai07
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-ashubhai07/ashubhai07 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include<time.h>
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+time_t syst;
+syst=time(NULL);
+cout<<(ctime(&syst));
+return 0;
+}
